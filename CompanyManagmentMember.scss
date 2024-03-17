@@ -1,0 +1,15 @@
+.white-space-nowrap {
+    white-space: nowrap;
+}
+
+.horizontal-scroll-table {
+    &.table-container.has-row-data {
+        overflow-y: hidden;
+    }
+
+    overflow-x: auto !important;
+
+    table {
+        width: 2000px !important;
+    }
+}

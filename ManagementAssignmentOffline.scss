@@ -1,0 +1,22 @@
+.text-align-center {
+  div {
+    div {
+      input {
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+.horizontal-scroll-tabel-offline-member-management {
+  &.table-container.has-row-data {
+    overflow-y: hidden;
+  }
+
+  overflow-x: auto !important;
+
+  table {
+    width: 2000px !important;
+  }
+}
